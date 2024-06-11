@@ -1,5 +1,5 @@
 <h1>Название проекта: Сайт экскурсии на квадроциклах</h1>
-![экскурсии на квадроциклах](https://github.com/Realex001/Excursion-HTML-CSS-JS/assets/164393853/adb8c7c7-2fb2-4f7e-bbca-51ce790cbab9)
+<img src="https://github.com/Realex001/Excursion-HTML-CSS-JS/assets/164393853/adb8c7c7-2fb2-4f7e-bbca-51ce790cbab9" >
 
 <h1>О проекте:</h1>
 <p>Данный проект выполнен в учебных целях.</p>
