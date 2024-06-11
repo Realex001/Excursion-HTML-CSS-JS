@@ -6,7 +6,7 @@
 <ul>
   <li>Проект выполнен за: 20 дней</li>
   <li>Демо онлайн: </li>
-  <li>Код на GitHub: </li>
+  <li>Код на GitHub: https://github.com/Realex001/Excursion-HTML-CSS-JS/tree/395e64ef21b40f3ec8665646db6e0c8c55746fd0/excursion </li>
 </ul>
 
 <h1>Технологии:</h1>
