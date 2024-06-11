@@ -1,0 +1,1314 @@
+@media (max-width: 1480px){
+    .container-right-routes {
+        margin-left: 100px;
+    }
+
+}
+
+@media (max-width: 1400px){
+    .container-right-routes {
+        margin-left: 50px;
+    }
+
+    .order-top-content.page {
+        max-width: 450px;
+    }
+
+}
+
+
+@media (max-width: 1300px){
+    .container{
+        max-width: 1100px;
+    }
+
+
+    /* Форма Подобрать маршрут */
+    .form-order {
+        width: 1000px;
+    }
+    .order-top {
+        flex-direction: column;
+    }
+
+    .order-top.slider2 {
+        flex-direction: column-reverse;
+    }
+
+    .order-top-content.page.slider2 {
+        margin-left: 45dvw;
+    }
+
+    .container-right-routes.slider2 {
+        margin-top: 50px;
+    }
+
+    .container-right-routes.slider3 {
+        margin-top: 50px;
+    }
+
+    .slider-container {
+        margin: 0 0 0 auto;
+    }
+
+    .header-content-form-text {
+        padding-right: 50px;
+    }
+
+
+    .container-right-routes {
+        margin-left: 180px;
+    }
+
+    .order-top-content.page {
+        max-width: 550px;
+    }
+
+    /*  */
+
+    .slider4-container {
+        height: 370px;
+    }
+    .swiper-slide.slider4 {
+        width: 249px !important;
+        height: 300px;
+        margin-top: 25px;
+    }
+
+    .swiper-slide.slider4.swiper-slide-prev,
+    .swiper-slide.slider4.swiper-slide-active,
+    .swiper-slide.slider4.swiper-slide-next {
+        width: 340px !important;
+        height: 340px;
+        margin-top: 0;
+    }
+
+}
+
+
+@media (max-width: 1100px){
+    .container{
+        max-width: 1000px;
+    }
+
+    /* Навигация  */
+    .nav-list {
+        gap: 22px;
+    }
+
+
+    /* Форма "Перезвоните мне" */
+    .form {
+        width: 800px;
+    }
+
+    .poison-btn {
+        left: 225px;   /* Кнопка на абсолютах */
+    }
+
+
+    /* Форма Подобрать маршрут */
+    .form-order {
+        padding: 41px 0 0 50px;
+
+        width: 800px;
+    }
+
+    .order-top-title::before {
+        width: 40px;
+        left: -50px;
+    }
+
+    .form-count-obertka {
+        position: absolute;
+    
+        top: 180px;
+        left: 111px;
+    }
+
+    .form-count {
+        margin-bottom: 5px;
+    }
+    .form-footer h3 {
+        margin-top: 25px;
+    }
+    .form-inputs {
+        margin-top: 15px;
+        row-gap: 10px;
+    }
+
+
+    /* Слайдер4 */
+    .slider4-container {
+        height: 270px;
+    }
+    .swiper-slide.slider4 {
+        width: 149px !important;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .swiper-slide.slider4.swiper-slide-prev,
+    .swiper-slide.slider4.swiper-slide-active,
+    .swiper-slide.slider4.swiper-slide-next {
+        width: 240px !important;
+        height: 240px;
+        margin-top: 0;
+    }
+
+
+    /* section video */
+    .video-kvadro video {
+        width: 800px;
+    }
+
+    /* section sertificate */
+    .sertificate-content img{
+        width: 400px;
+    }
+    
+    /* section question-answer  */
+    .question-answer-content{
+        gap: 60px;
+    }
+
+
+    /* footer */
+    .footer-contacts-info {
+        width: 329px;
+    }
+    .map {
+        width: 60vw;
+    }
+
+    .footer-nav img{
+        margin-left: 20px;
+    }
+
+    .footer-nav-list{
+        gap: 20px;
+    }
+
+    
+
+}
+
+
+@media (max-width: 1000px){
+    .container{
+        max-width: 900px;
+    }
+
+    /* Перестройка навигации */
+    .nav-content {
+        justify-content: unset;
+        gap: 500px;
+    }
+    .nav-list{
+        position: fixed;
+        flex-direction: column;
+        justify-content: space-evenly;
+        top: 0;
+        height: 100dvh;
+        width: 50%;
+         
+        background: rgb(3, 126, 140);
+        z-index: 11;
+        overflow: auto;
+        transition: .5s linear;
+        
+        right: -100%;
+        /* right: 0; */
+    }
+
+    .nav-list.active{
+        right: 0;
+        
+    }
+
+    .nav-link{
+        font-size: 22px;
+    }
+
+    .nav-link:hover{
+        color: white;
+    }
+
+    .btn-menu {
+        display: block;
+    }
+
+
+    /* Контент шапки */
+    .header-content-title {
+        font-size: 65px;
+    }
+
+
+    /* Слайдер 1 */
+    .container-right-routes {
+        margin-left: 100px;
+    }
+
+
+    /* section question-answer  */
+    .question-answer-content{
+        gap: 30px;
+    }
+
+    .question-answer::after {
+        right: -75px;
+    }
+
+}
+
+
+@media (max-width: 900px){
+    .container{
+        max-width: 700px;
+    }
+
+    .nav-content {
+        gap: 370px;
+    }
+
+    /* Контент шапки */
+    .header-content-title {
+        font-size: 60px;
+    }
+
+
+    /* section sertificate */
+    .certificate-title {
+        padding: 40px 0 13px;
+        font-size: 30px;
+    }
+
+    .certificate-subtitle {
+        font-size: 18px;
+    }
+
+    .sertificate-content {
+        padding: 46px 0 90px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .sertificate-content-text p {
+        font-size: 14px;
+    }
+
+    .order-top-btn-scheme.certificate-btn {
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+
+    /* footer */
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .map {
+        width: 80vw;
+    }
+
+    .footer-contacts-info {
+        width: 665px;
+    }
+
+    
+    .footer-nav img{
+        margin-left: 0;
+    }
+
+    .footer-nav-list{
+        gap: 10px;
+    }
+    .footer-nav-link {
+        font-size: 13px;
+    }
+
+}
+
+
+@media (max-width: 850px){
+   
+
+    .nav-content {
+        gap: 340px;
+    }
+
+
+    /* Форма "Перезвоните мне" */
+    .form {
+        width: 400px;
+
+        padding-top: 45px;
+        padding-bottom: 100px;
+    }
+
+    .poison-btn {
+        top: 285px;
+        left: 25px;   /* Кнопка на абсолютах */
+    }
+
+
+    /* Форма Подобрать маршрут */
+    .header-content-form {
+        top: -35%;
+    }
+    .form-order {
+        width: 670px;
+    }
+
+    .form-info-cards {
+        justify-content: center;
+    }
+
+
+    /* Контент шапки */
+    .header-content-title {
+        font-size: 50px;
+    }
+
+
+    /* Слайдер 1 */
+    .container-right-routes {
+        margin-left: 50px;
+    }
+
+    .slider-page {
+        width: 700px;
+    }
+
+    .swiper-pagination.page {
+        left: -330px !important;
+    }
+    
+
+    /* section test */
+    .test h3 {
+        font-size: 30px;
+    }
+    
+    .test p {
+        font-size: 16px;
+    }
+    
+
+     /*section video */
+    .video-kvadro video {
+        width: 450px;
+    }
+
+    .playBtn img{
+        width: 45px;
+    }
+    .playBtn {
+        top: 40%;
+        left: 45%;
+    }
+
+
+    /* section question-answer  */
+    .question-answer-content{
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .question-answer h3 {
+        padding: 41px 0 28px;
+    }
+
+}
+
+
+@media (max-width: 750px){
+   
+
+    .nav-content {
+        gap: 40px;
+    }
+
+    .nav-list {
+        width: 100%;
+    }
+
+    /* Форма Подобрать маршрут */
+    .form-order {
+        padding: 41px 0 0 20px;
+        width: 470px;
+    } 
+
+    .order-top-title::before {
+        display: none;
+    }
+
+    .slider-container {
+        width: 440px;
+    }
+
+    .swiper-pagination {
+        left: -180px !important; 
+    }
+
+    .form-footer {
+        padding-left: 40px;
+    }
+
+    .form-count-obertka {
+        left: 39px;
+    }
+
+    .header-content-form-text {
+        padding-right: 10px;
+    }
+
+
+    /* Контент шапки */
+    .header-content {
+        margin-left: 2vw;
+    }
+    .header-content-title {
+        font-size: 45px;
+    }
+
+    .header-content-text {
+        font-size: 20px;
+    }
+
+    .header-bg-pagination {
+        right: 20px;
+    }
+
+    .header-content-btn {
+        padding: 10px 10px 10px 15px;
+        font-size: 14px;
+    }
+
+
+    .slider-page {
+        width: 500px;
+        height: 340px;
+    }
+
+    .swiper-slide.page {
+        width: 218px;
+        height: 261px;
+    }
+    
+    .swiper-slide.page.swiper-slide-active {
+        width: 314px;
+        height: 314px;
+    }
+
+    .swiper-pagination.page {
+        left: -230px !important;
+    }
+
+    .swiper-slide.page.slider2 {
+        width: 314px;
+        height: 314px;
+        margin-top: 0px; 
+    }
+    .swiper-slide.page.slider2.swiper-slide-active,
+    .swiper-slide.page.slider2.swiper-slide-next {
+        width: 218px;
+        height: 261px;
+        margin-top: 25px; 
+    }
+
+    .order-top-content.page.slider2 {
+        margin-left: 50px;
+    }
+
+
+
+    /* Слайдер4 */
+    .slider4-container {
+        height: 270px;
+    }
+    .swiper-slide.slider4 {
+        width: 240px !important;
+        height: 240px;
+        margin-top: 0;
+    }
+
+    .swiper-slide.slider4.swiper-slide-prev,
+    .swiper-slide.slider4.swiper-slide-active,
+    .swiper-slide.slider4.swiper-slide-next {
+        width: 240px !important;
+        height: 240px;
+        margin-top: 0;
+    }
+
+
+
+    /* Section team */
+    .team h3 {
+        padding: 44px 0 29px;
+        font-size: 30px;
+    }
+
+    .team::before,
+    .team::after {
+        width: 310px;
+    }
+
+    /* Section special */
+    .special-card img{
+         width: 150px;
+    }
+
+    .special-card{
+        width: 450px;
+        height: 170px;
+    }
+    .special-card-text-title {
+        padding: 16px 0 9px;
+        font-size: 18px;
+    }
+    .text-800{
+        font-size: 24px;
+    }
+    .special-card-text-subtitle {
+        font-size: 14px;
+    }
+    .special-card::after { 
+        width: 250px;
+        height: 115px;
+    }
+    .order-top-btn-scheme.special-btn {
+        padding: 10px 24px;
+    }
+    
+    .special::before{
+        left: -80px;
+    }
+
+    .special::after{
+        right: -232px;
+        bottom: -271px;
+    }
+
+
+    /* footer */
+    .footer-contacts-info {
+        width: 300px;
+    }
+    .footer-contact {
+        width: 300px;
+    }
+
+    .footer-nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-nav-list{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer-nav-link {
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-width: 550px){
+    .slider-page {
+        width: 450px;
+    }
+    .swiper-pagination.page {
+        left: -200px !important;
+    }
+
+
+    /* Section services */
+    .services h3 {
+        padding: 30px 0 23px;
+    
+        font-size: 30px;
+    }
+
+    .services-card {
+        width: 333px;
+        height: 130px;
+    }
+
+    .services-text {
+        max-width: 240px;
+    }
+
+    /* section question-answer  */
+    .question-answer h3 {
+        padding: 31px 0 18px;
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .actual-question {
+        width: 300px;
+    }
+
+    .actual-question-title h4{
+        font-size: 14px;
+    }
+    .question-answer::after {
+        right: -130px;
+    }
+
+    .question-answer::before {
+        left: -130px;
+    }
+
+
+    /* Section additional-services */
+    .additional-services h3 {
+        padding-top: 20px;
+        font-size: 26px;
+    }
+
+    .additional-services-cards {
+        padding: 35px 0 59px;
+    }
+
+}
+
+
+@media (max-width: 500px){
+    .nav-content {
+        gap: 10px;
+    } 
+    .nav-content-logo{
+        width: 100px;
+    }  
+    .nav-connection-tel-number {
+        font-size: 15px;
+    }
+
+    /* Форма Перезвонить мне */
+    .form {
+        width: 320px;
+        padding-top: 45px;
+        padding-bottom: 100px;
+    }
+
+    .form-input-user-tel,
+    .form-input-user-name {
+        width: 300px;
+    }
+
+    .nav-form-title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .form-close {
+        top: 0px;
+        right: 10px;
+    }
+
+    .poison-btn {
+        left: 12px;
+    }
+
+
+    /* Форма Подобрать маршрут */
+    .form-order {
+        padding: 31px 0 0 20px;
+        width: 400px;
+    } 
+
+    .slider-container {
+        width: 320px;
+        height: 340px;
+        margin: 0 auto;
+    }
+
+    .swiper-pagination {
+        left: -140px !important; 
+    }
+
+    .order-top-title {
+        font-size: 30px;
+        
+    }
+
+    .form-input-user-date,
+    .form-count-obertka,
+    .form-input-user-tel,
+    .form-input-user-name {
+        width: 320px;
+    }
+
+    .form-count label {
+        width: 320px;
+    }
+
+    .number-plus {
+        right: 75px;
+    }
+    
+
+
+
+    /* Контент шапки */
+    .header-content-title {
+        font-size: 35px;
+    }
+
+
+    .container-right-routes {
+            margin-left: 40px;
+        }
+    .routes-title {
+        padding: 30px 0 23px;
+        font-size: 32px;
+    }
+    .routes-btn {
+        flex-direction: column;
+        margin: 0 6% 0 0;
+    }
+
+    .slider-page {
+        width: 340px;
+        margin: 0 auto;
+    }
+    .swiper-pagination.page {
+        left: -130px !important;
+    }
+
+    .slider-page.slider2 {
+        width: 340px;
+        margin: 0 auto;
+    }
+
+    .swiper-pagination.page.slider2 {
+        left: -130px !important;
+    }
+
+    
+    /*section video */
+     .video-kvadro video {
+        width: 300px;
+    }
+
+
+    /* Section special */
+    .special h3 {
+        padding: 24px 0 15px;
+        font-size: 26px;
+    }
+
+    .special-cards {    
+        padding-bottom: 25px;
+    }
+
+    .special-card img{
+        width: 150px;
+   }
+
+   .special-card{
+       width: 315px;
+       height: 170px;
+       gap: 8px;
+   }
+   .special-card-text-title {
+       padding: 10px 0 6px;
+       font-size: 14px;
+   }
+   .text-800{
+       font-size: 20px;
+
+   }
+   .special-card-text-subtitle {
+       font-size: 12px;
+   }
+   .special-card::after { 
+       width: 250px;
+       height: 115px;
+   }
+   .order-top-btn-scheme.special-btn {
+       padding: 8px 14px;
+       font-size: 12px;
+   }
+
+
+   /* section certificate */
+
+   .certificate-title {
+        padding: 30px 0 10px;
+        font-size: 25px;
+    }
+
+    .certificate-subtitle {
+        font-size: 16px;
+    }
+
+    .sertificate-content {
+        padding: 30px 0 50px;
+    }
+
+    .sertificate-content img {
+        width: 90%;
+    }
+
+    .sertificate-content-text p {
+        font-size: 12px;
+    }
+
+    .order-top-btn-scheme.certificate-btn {
+        margin-top: 30px;
+    }
+
+   .sertificate-content-text {
+        margin-left: 20px;
+    }
+
+
+    /* footer */
+    .footer-contacts h3{
+        padding: 15px 0 34px;
+        font-size: 28px;
+    }
+    .footer-contact p {
+        font-size: 16px;  
+    }
+
+    .map {
+        width: 90vw;
+        height: 480px;
+    }
+    
+
+}
+
+
+@media (max-width: 400px){
+    .nav-content {
+        gap: 5px;
+    } 
+    .nav-content-logo{
+        width: 80px;
+    }  
+    .nav-connection-tel-number {
+        font-size: 12px;
+    }
+    .nav-connection-btn {
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+
+    .btn-menu {
+        right: 15px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+
+    /* Форма Подобрать маршрут */
+    .form-order {
+        padding: 21px 0 0 10px;
+        width: 300px;
+    } 
+
+    .slider-container {
+        width: 260px;
+        height: 280px;
+        margin: 0 auto;
+    }
+
+    .swiper-slide {
+        margin-top: 0; 
+    }
+
+    .swiper-slide-active {
+        width: 218px;
+        height: 261px;
+    }
+    .swiper-pagination {
+        left: -110px !important; 
+    }
+
+    .order-top-title {
+        font-size: 30px;
+    }
+
+    .order-top-title {
+        font-size: 20px;
+        margin-left: 40px;
+    }
+
+    .order-top-info {
+        margin-top: 21px;
+    }
+
+    .order-top-info-el {
+        gap: 10px;
+    }
+
+    .order-top-info-el p{
+        font-size: 14px;
+    }
+
+    .order-top-route {
+        margin-top: 22px;
+    }
+
+    .order-top-route-title {
+        gap: 10px;
+    }
+
+    .order-top-route-title h3 {
+        font-size: 16px;
+    }
+
+    .order-top-route-text {
+        margin-top: 10px;
+        font-size: 12px;
+        margin-bottom: 29px;
+    }
+
+    .order-top-btn-scheme {
+        padding: 10px 14px ;
+    }
+
+    .header-content-form-text h3 {
+        padding: 20px 0 10px;
+        font-size: 16px;
+        line-height: 29px;
+    }
+
+    .header-content-form-text p {
+        font-size: 12px;
+        line-height: 130%;
+    }
+
+    .header-content-form-prices h3 {
+        padding: 28px 0 15px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .form-info-card {
+        width: 280px;
+    }
+
+    .form-info-card-img {
+        width: 280px;
+    }
+
+    .info-kvadro {
+        width: 282px;
+    }
+
+    .form-footer {
+        padding-left: 10px;
+    }
+
+    .form-footer h3 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 800;
+    }
+
+    
+    .form-input-user-date,
+    .form-count-obertka,
+    .form-input-user-tel,
+    .form-input-user-name {
+        width: 280px;
+    }
+
+    .form-count label {
+        width: 280px;
+    }
+    
+    .form-count-obertka {
+        left: 10px;
+    }
+    .form-input-user-count {
+        margin-left: 100px;
+    }
+
+    .number-minus {
+        left: 55px;
+        bottom: 1px;
+    }
+    .number-plus {
+        right: 57px;
+        bottom: 1px;
+    }
+
+    .form-order-close {
+        
+        top: 2px;
+        right: 10px;
+    }
+
+
+    /* Контент шапки */
+    .header-content-title {
+        margin-top: 55px;
+        font-size: 30px;
+    }
+
+    .header-content-text {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .header-bg-pagination {
+        right: 10px;
+        top: 200px;
+    }
+
+    .pg {
+        width: 6px;
+        height: 6px;
+    }
+    .header-content-btn {
+        margin-top: 20px;
+        padding: 5px 5px 5px 10px;
+        font-size: 12px;
+    }
+
+
+    /* Слайдеры */
+    .container-right-routes {
+        margin-left: 20px;
+    }
+
+    .order-top-title.page {
+        margin: 0 auto;
+    }
+
+    .routes-price {
+        font-size: 16px;
+    }
+
+    .slider-page {
+        width: 280px;
+        height: 340px;
+        margin-left: 0;
+    }
+    .swiper-pagination.page {
+        left: -110px !important;
+    }
+
+
+    .order-top-content.page.slider2 {
+        margin-left: 10px;
+    }
+    .container-right-routes.slider2 {
+        margin-left: 20px;
+    }
+
+    .swiper-container.slider2 {
+        float: unset;
+    }
+
+    .swiper-slide.page.slider2.swiper-slide-active {
+        height: 314px;
+        margin-top: 0px; 
+    }
+    .slider-container.slider-page.slider2 {
+        width: 280px;
+        height: 340px;
+        margin-left: 0;
+    }
+    .swiper-pagination.page.slider2 {
+        left: -110px !important;
+    }
+   
+    .slider-container.slider-page.slider2 {
+        margin-left: 10px;
+    }
+
+    
+
+    /* section test */
+    .test h3 {
+        font-size: 20px;
+    }
+    
+    .test p {
+        font-size: 12px;
+    }
+    
+    .order-top-btn-scheme.testing {
+        padding: 10px 33px;
+        font-size: 12px;
+    }
+
+
+    
+    /* Слайдер4 */
+    .slider4-container {
+        margin-left: calc((100vw - 290px)/2);
+        height: 360px;
+        width: 290px;
+    }
+    .swiper-slide.slider4 {
+        width: 290px !important;
+        height: 320px;
+        margin-top: 0;
+    }
+
+    .swiper-slide.slider4.swiper-slide-prev,
+    .swiper-slide.slider4.swiper-slide-active,
+    .swiper-slide.slider4.swiper-slide-next {
+        width: 290px !important;
+        height: 320px;
+        margin-top: 0;
+    }
+
+    .slider-four {
+        padding: 13px 0 20px;
+    }
+    .slider-four h3 {
+        font-size: 20px;
+    }
+    .slider4-container {
+        margin-top: 10px;
+    }
+
+
+     /* Section team */
+     .team-cards {
+        padding-bottom: 34px;
+    }
+
+     .team-card {
+        width: 280px;
+    }
+
+    .team-card img{
+        width: 280px;
+    }
+
+    .team h3 {
+        padding: 30px 0 19px;
+        font-size: 24px;
+    }
+    
+    .team-name {
+        font-size: 20px;
+    }
+
+    .team-job {
+        font-size: 16px;
+    }
+
+
+
+        /* Section services */
+    .services h3 {
+        padding: 20px 0 13px;
+    
+        font-size: 20px;
+    }
+
+    .services-cards{
+        gap: 15px;
+        padding-bottom: 30px;
+    }
+
+    .services-card {
+        width: 280px;
+        height: 110px;
+
+        gap: 10px;
+    }
+
+    .services-card img {
+        width: 32px;
+        height: 32px;
+    }
+    .services-text {
+        max-width: 200px;
+        font-size: 12px;
+    }
+
+
+
+
+    /* section certificate */
+
+   .certificate-title {
+        padding: 30px 0 10px;
+        font-size: 20px;
+    }
+
+    .certificate-subtitle {
+        font-size: 14px;
+    }
+
+    .sertificate-content-text {
+        margin-left: 10px;
+    }
+
+    .order-top-btn-scheme.certificate-btn {
+        margin-top: 20px;
+        padding: 6px 10px;
+    }
+
+
+     /* Section additional-services */
+     .additional-services h3 {
+        padding-top: 15px;
+        font-size: 22px;
+    }
+
+    .additional-services-cards {
+        padding: 25px 0 39px;
+    }
+
+    .additional-services-card {
+        height: 290px;
+    }
+    .additional-services-card p {
+        max-width: 100%;
+        padding: 20px 0 0 20px;
+        font-size: 14px;
+    }
+
+    /* footer */
+    .footer-contacts h3{
+        padding: 5px 0 14px;
+        font-size: 22px;
+    }
+    .footer-contact p {
+        font-size: 14px;  
+    }
+
+    .footer-contacts-info {
+        row-gap: 15px;
+    
+    }
+
+    .write-us h4 {
+        padding-top: 16px;
+        font-size: 16px;
+    }
+
+    .map {
+        width: 95vw;
+    }
+
+    .footer-copyright {
+        font-size: 12px;
+    }
+
+}
+
